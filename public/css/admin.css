@@ -1,0 +1,67 @@
+#adminTitle {
+	text-align: center;
+}
+
+.urlEntry {
+	float: right;
+	margin-right: 10px;
+}
+
+.eventBlocks {
+	border-radius: 6px; 
+	border-width: 1px; 
+	border-color: black;
+	border-style: solid; 
+	margin-bottom: 10px;
+}
+
+.eventBlocks:hover {
+	background-color: #2c3e50;
+	color: white;
+}
+
+.deleteEventBtn {
+	margin-left: 10px; 
+	margin-bottom: 10px;
+}
+
+.textEntry {
+	margin-left: 5px;
+}
+
+#event-form {
+	display: none;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+#event-delete {
+	display: none;
+	text-align: center; 
+	margin-top: 20px;
+}
+
+#deleteEventBtn {
+	width: 100%;
+	font-size: 20px; 
+	margin-top: 20px;
+}
+
+.modal-header {
+	background-color: #2c3e50;
+	color: white;
+}
+
+#modalSubmit {
+	width: 100%;
+}
+
+#eventTitle, #eventLocation, #eventDate, #eventNotes, #eventURL {
+	margin-bottom: 20px;
+}
+
+/*#alert-title, #alert-location, #alert-date {
+	display: none;
+	color: red;
+	text-align: center;
+}*/
