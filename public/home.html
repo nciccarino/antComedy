@@ -10,11 +10,24 @@
   <!-- CSS  -->
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Permanent+Marker" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Bangers" rel="stylesheet">
   <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
   <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <!-- Moment.js Reference -->
+  <script src="https://cdn.jsdelivr.net/momentjs/2.12.0/moment.min.js"></script>
 </head>
 
 <body>
+  <div id="fb-root"></div>
+  <script>(function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.10&appId=272070916629475";
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));
+  </script>
+
 
   <nav id="nav">
     <div class="nav-wrapper">
@@ -34,7 +47,7 @@
         <div class="row center">
           <h5 class="header col s3 light" id="nav-thing"><br><br><br><br><a href="/" id="nav-links">Home</a></h5>
           <h5 class="header col s3 light" id="nav-thing"><br><br><br><br><a href="#" id="nav-links">Bio</a></h5>
-          <h5 class="header col s3 light" id="nav-thing"><br><br><br><br><a href="#" id="nav-links">Night Cafe</a></h5>
+          <h5 class="header col s3 light" id="nav-thing"><br><br><br><br><a href="#" id="nav-links">NightCafe</a></h5>
           <h5 class="header col s3 light" id="nav-thing"><br><br><br><br><a href="#" id="nav-links">Contact </a></h5>
         </div>
       </div>
@@ -45,12 +58,24 @@
   <div class="container">
     <div class="section">
       <div class="row">
-        <div class="col s3" id="sideCol">
-
+        <div class="col s4" id="sideCol">
+          <p id="captionTop">Tweets</p>
+          <div class="tweet-container"></div>
         </div>
-
-        <div class="col s9" id= "rightCol">
-          
+        <div class="col s8" id= "rightCol">
+          <p id="captionTop">Shows and Events</p>
+          <div class="fb-page" data-href="https://www.facebook.com/Anthony-Passaretti-Comedy-1692873694359906/" data-tabs="events, timeline" data-small-header="true" data-width="500" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true">
+            <blockquote cite="https://www.facebook.com/Anthony-Passaretti-Comedy-1692873694359906/" class="fb-xfbml-parse-ignore">
+              <a href="https://www.facebook.com/Anthony-Passaretti-Comedy-1692873694359906/">
+                Anthony Passaretti Comedy
+              </a>
+            </blockquote>
+          </div>
+          <p id="captionBottom">More Events</p>
+          <div class="futureContainer"></div>
+          <button class="waves-effect waves-light btn" id="pastEventsBtn">See Past Events</button>
+          <p id="captionPast">Past Events</p>
+          <div class="pastContainer"></div>
         </div>
       </div>
     </div>
@@ -71,10 +96,13 @@
     <div class="section">
       <div class="row">
         <div class="col s12 center">
-
+          <p id="standup">Stand Up</p>
+          <iframe id="ytplayer" type="text/html" width="640" height="360"
+            src="https://www.youtube.com/embed?listType=user_uploads&list=UCSldg0iJGbLRbhFRTwC_zig"
+            frameborder="0">
+          </iframe>
         </div>
       </div>
-
     </div>
   </div>
 
@@ -119,6 +147,7 @@
   <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
   <script src="js/materialize.js"></script>
   <script src="js/init.js"></script>
+  <script src="js/home.js"></script>
 </body>
 
 </html>

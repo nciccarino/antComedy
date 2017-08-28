@@ -96,5 +96,113 @@ footer.page-footer {
 }
 
 body {
-  background: url("../images/nycsub2.jpg") no-repeat center center fixed;
+  background-color: black;
+}
+
+.tweet {
+  border-style: solid; 
+  border-width: 2px;
+  border-color: #01ABAA;
+  border-radius: 6px;
+  margin-bottom: 10px;
+  margin-right: 50px;
+  line-height: 1rem;
+  background-color: black;
+  color: white;
+  /*font-family: 'Bangers', cursive;*/
+  text-align: center;
+}
+
+.tweetText, .tweetDate, .textEntry {
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+#sideCol {
+  background-color: black;
+}
+
+.tweet-container {
+  border-right-style: solid; 
+  border-right-width: 3px;
+  border-right-color: #FEA680;
+}
+
+#captionTop {
+  color: #FEA680;
+  font-family: 'Bangers', cursive;
+  font-size: 50px;
+  text-align: center;
+  margin-right: 50px;
+}
+
+.fb-page {
+  margin-left: 40px;
+}
+
+#captionBottom {
+  color: #FEA680;
+  font-family: 'Bangers', cursive;
+  font-size: 50px;
+  text-align: center;
+  margin-right: 50px;
+  display: none;
+}
+
+.eventBlocks {
+  border-style: solid; 
+  border-width: 2px;
+  border-color: #01ABAA;
+  border-radius: 6px;
+  margin-bottom: 10px;
+  margin-right: 50px;
+  line-height: 1rem;
+  background-color: black;
+  color: white;
+  /*font-family: 'Bangers', cursive;*/
+}
+
+.urlEntry {
+  float: right;
+  margin-right: 10px;
+  background-color: #FEA680;
+}
+
+.futureContainer {
+  margin-left: 40px;
+}
+
+.pastContainer {
+  margin-left: 40px;
+  display: none;
+}
+
+#pastEventsBtn {
+  margin-left: 40px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background-color: #FEA680;
+}
+
+#captionPast {
+  color: #FEA680;
+  font-family: 'Bangers', cursive;
+  font-size: 50px;
+  text-align: center;
+  margin-right: 50px;
+  display: none;
+}
+
+#standup {
+  color: #FEA680;
+  font-family: 'Bangers', cursive;
+  font-size: 50px;
+  text-align: center;
+}
+
+#ytplayer {
+  border-style: solid; 
+  border-width: 2px;
+  border-color: #01ABAA;
+  border-radius: 6px;
 }
