@@ -33,7 +33,7 @@ $(document).ready(function() {
 
 			if (data.length > 0) {
 				$("#captionBottom").css("display", "block"); 
-				$("#pastEventsBtn").css("display", "show");
+				$("#pastEventsBtn").css("display", "block");
 			}
 
       for(var i = 0; i < data.length; i++){
