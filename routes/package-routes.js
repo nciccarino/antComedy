@@ -1,4 +1,6 @@
 	var Twitter = require("twitter");
+	var request = require("request");
+	var cheerio = require("cheerio");
 
 	module.exports = function(app) {
 
