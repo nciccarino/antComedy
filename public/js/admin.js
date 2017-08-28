@@ -77,7 +77,7 @@ $(document).ready(function(){
             futureDiv.addClass("futureDiv" +i);
             futureDiv.addClass("block");
 
-            var showDate = moment(data[i].date).calendar()
+            var showDate = moment(data[i].date).add(4, 'hours').format('LLL');
 
             var titleDiv = $("<h4>" + data[i].title + "</h4>").addClass("textEntry");
             var locationDiv = $("<h5>" + data[i].location + "</h5>").addClass("textEntry");
