@@ -25,10 +25,6 @@ p {
   line-height: 2rem;
 }
 
-.button-collapse {
-  color: #26a69a;
-}
-
 .parallax-container {
   min-height: 380px;
   line-height: 0;
@@ -77,4 +73,28 @@ footer.page-footer {
 
 #footerContainer {
   background-color: #01ABAA;
+}
+
+#nav-thing {
+  font-size: 40px; 
+  color: white;
+  text-align: center;
+  font-family: 'Permanent Marker', cursive;
+}
+
+#nav-links {
+  color: white;
+}
+
+#nav-links:hover {
+  border-radius: 6px;
+  padding: 10px;
+  color: black;
+  text-align: center;
+  background-color: #FEDC3D; 
+  font-family: 'Permanent Marker', cursive;
+}
+
+body {
+  background: url("../images/nycsub2.jpg") no-repeat center center fixed;
 }
