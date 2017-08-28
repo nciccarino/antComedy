@@ -75,6 +75,12 @@ footer.page-footer {
   background-color: #01ABAA;
 }
 
+#border-nav {
+  border-bottom-style: solid; 
+  border-bottom-width: 2px;
+  border-bottom-color: #01ABAA;
+}
+
 #nav-thing {
   font-size: 40px; 
   color: white;
