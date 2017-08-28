@@ -188,6 +188,7 @@ body {
   margin-top: 20px;
   margin-bottom: 20px;
   background-color: #FEA680;
+  display: none;
 }
 
 #captionPast {
