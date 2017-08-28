@@ -212,3 +212,19 @@ body {
   border-color: #01ABAA;
   border-radius: 6px;
 }
+
+.bio-content {
+  border-style: solid; 
+  border-width: 2px;
+  border-color: #01ABAA;
+  border-radius: 6px;
+  width: 100%;
+  text-align: left; 
+  color: white;
+  font-size: 35px; 
+}
+
+#bioText {
+  margin-left: 20px;
+  margin-bottom: 75px;
+}
