@@ -72,7 +72,16 @@ footer.page-footer {
 }
 
 #footerContainer {
-  background-color: #01ABAA;
+  background-color: #FEDC3D;
+  color: black;
+}
+
+#footer-text {
+  color: black;
+}
+
+#secondLogo {
+  font-family: 'Permanent Marker', cursive;
 }
 
 #border-nav {
